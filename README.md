@@ -18,39 +18,29 @@ AI Agent Skill：中文写作规范校验工具。
 | **文风检查** | 新闻联播体、淘宝体、自嗨型、说人话 | 清晰比聪明更好 |
 | **翻译/双语** | 中英语义对应、英文语法检查 | 翻译后二次检查语义 |
 
-## 安装
-
-### 方式一：Cursor IDE
-
-```bash
-# 克隆到 Cursor 的个人 Skills 目录
-git clone https://github.com/helloChenLei/chinese-writing-check.git ~/.cursor/skills/chinese-writing-check
-```
-
-安装后，在 Cursor 中对 AI 说「帮我检查这篇文章」即可触发。
-
-### 方式二：Claude Code
-
-```bash
-# 克隆到 Claude Code 的 Skills 目录
-git clone https://github.com/helloChenLei/chinese-writing-check.git ~/.claude/skills/chinese-writing-check
-```
-
-### 方式三：手动安装
-
-1. 下载本仓库的 `SKILL.md` 和 `standards.md` 两个文件
-2. 放到你的 AI 工具对应的 Skills 目录下即可
-
 ## 使用方式
 
-安装后，在对话中说以下任意一种触发词：
+不需要安装任何东西。把下面的 Skill 文件链接发给你正在使用的 AI 编程工具（Cursor、Claude Code、Windsurf、Cline 等任意一个），让它读取并按照里面的规则检查文章即可。
 
-- 「帮我检查这篇文章」
-- 「校验写作」
-- 「文字规范检查」
-- 「校对」
+**Skill 文件链接：**
 
-然后提供文章内容（直接粘贴文本、给文件路径、或给 URL），AI 会输出结构化校验报告：
+```
+https://github.com/helloChenLei/chinese-writing-check/blob/main/SKILL.md
+```
+
+**详细规范参考（含所有正误示例对照表）：**
+
+```
+https://github.com/helloChenLei/chinese-writing-check/blob/main/standards.md
+```
+
+### 示例用法
+
+把上面的链接发给 AI，然后说：
+
+> 请按照这个 Skill 的规则，帮我检查这篇文章：[粘贴文章内容或 URL]
+
+AI 会输出结构化校验报告：
 
 ```
 📝 中文写作规范校验报告
