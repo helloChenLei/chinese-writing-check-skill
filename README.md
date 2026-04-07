@@ -1,4 +1,4 @@
-# chinese-writing-check
+# chinese-writing-check-skill
 
 AI Agent Skill：中文写作规范校验工具。
 
@@ -22,7 +22,7 @@ AI Agent Skill：中文写作规范校验工具。
 
 在你的 AI 编程工具（Cursor、Claude Code、Windsurf、Cline 等）中，直接对 AI 说：
 
-> 帮我安装此 skill https://github.com/helloChenLei/chinese-writing-check
+> 帮我安装此 skill https://github.com/helloChenLei/chinese-writing-check-skill
 
 AI 会自动读取仓库内容并完成安装。
 
