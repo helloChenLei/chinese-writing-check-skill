@@ -40,7 +40,9 @@ https://github.com/helloChenLei/chinese-writing-check/blob/main/standards.md
 
 > 请按照这个 Skill 的规则，帮我检查这篇文章：[粘贴文章内容或 URL]
 
-AI 会输出结构化校验报告：
+AI 会先输出校验报告，然后你可以说「帮我改一下」，AI 会直接输出修改后的完整文章。
+
+**校验报告示例：**
 
 ```
 📝 中文写作规范校验报告
