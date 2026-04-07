@@ -18,27 +18,19 @@ AI Agent Skill：中文写作规范校验工具。
 | **文风检查** | 新闻联播体、淘宝体、自嗨型、说人话 | 清晰比聪明更好 |
 | **翻译/双语** | 中英语义对应、英文语法检查 | 翻译后二次检查语义 |
 
+## 安装
+
+在你的 AI 编程工具（Cursor、Claude Code、Windsurf、Cline 等）中，直接对 AI 说：
+
+> 帮我安装此 skill https://github.com/helloChenLei/chinese-writing-check
+
+AI 会自动读取仓库内容并完成安装。
+
 ## 使用方式
 
-不需要安装任何东西。把下面的 Skill 文件链接发给你正在使用的 AI 编程工具（Cursor、Claude Code、Windsurf、Cline 等任意一个），让它读取并按照里面的规则检查文章即可。
+安装后，对 AI 说：
 
-**Skill 文件链接：**
-
-```
-https://github.com/helloChenLei/chinese-writing-check/blob/main/SKILL.md
-```
-
-**详细规范参考（含所有正误示例对照表）：**
-
-```
-https://github.com/helloChenLei/chinese-writing-check/blob/main/standards.md
-```
-
-### 示例用法
-
-把上面的链接发给 AI，然后说：
-
-> 请按照这个 Skill 的规则，帮我检查这篇文章：[粘贴文章内容或 URL]
+> 请帮我检查这篇文章：[粘贴文章内容或 URL]
 
 AI 会先输出校验报告，然后你可以说「帮我改一下」，AI 会直接输出修改后的完整文章。
 
