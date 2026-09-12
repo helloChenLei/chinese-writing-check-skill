@@ -1,6 +1,6 @@
 ---
 name: chinese-writing-check
-description: 中文写作规范校验。检查标点符号、中英文混排、数字用法、用词规范、欧化表达、文风等问题并输出修改建议。Use when user asks to "检查文章", "校验写作", "check writing", "文字规范", "writing check", "校对", or "proofread Chinese text".
+description: "校对中文标点、混排、用词与文风，并给出修改建议。"
 ---
 
 # 中文写作规范校验
